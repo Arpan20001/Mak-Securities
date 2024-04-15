@@ -5,16 +5,104 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <style>
+            /* Reset some default styles */
+            body, h1, p, ul, li {
+                margin: 0;
+                padding: 0;
+            }
+            
+            /* Style the navigation bar */
+            nav {
+                background-color: #333;
+            }
+            
+            nav ul {
+                list-style-type: none;
+                overflow: hidden;
+            }
+            
+            nav ul li {
+                float: left;
+            }
+            
+            nav ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            /* Style the container */
+            .container {
+                width: 100%;
+                margin: 50px auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .container h1 {
+                font-size: 3em;
+                margin-bottom: 20px;
+            }
+            
+            .container p {
+                font-size: 1.2em;
+                line-height: 1.5;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                width: 100%;
+                height: 50px;
+                background-color: #ffffff;
+                padding: 20px;
+                
+            }
+            
+            /* Grid items */
+            .grid-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #ccc;
+            }
+            .grid-contain {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                width: 100%;
+                height: 50%;
+                background-color: #ffffff;
+                padding: 20px;
+                
+            }
+            
+            
+                </style>
     </head>
     <body>
         <div class="container">
             <h2 class="text-center pt-3">Mutual Fund</h2>
-            <h5>What is Mutual Fund:</h5>
+            
+        <div class="grid-container">
+            <div class="grid-item" style="font-size: 30px;"><b>About</b></div>
+            <div class="grid-item"style="font-size: 30px;"><b>Queries</b></div>
+            <div class="grid-item"style="font-size: 30px;">   </div>
+        </div>
+        <div class="container">
+        
+    <h5>What is Mutual Fund:</h5>
 <ul>
     <li>A mutual fund is an investment option where money from many people is pooled together to buy a variety of stocks, bonds, or other securities. This mix of investments is managed by a professional money manager, providing individuals with a portfolio that is structured to match the investment objectives stated in the fund's prospectus.</li>
     <li>By investing in a mutual fund, individuals gain access to a broad range of investments, which can help reduce risk compared to investing in a single stock or bond. Investors earn returns based on the fund's performance minus any fees or expenses charged. In this way, mutual funds can give small or individual investors access to professionally managed portfolios of equities, bonds, and other asset classes.</li>
 </ul>
-
+        </div>
+        <div class="container">
 <h5>Types of Mutual Funds:</h5>
 <ul>
     <li>Stock Funds: As the name implies, this fund invests principally in equity or stocks. Within this group are various subcategories. Some equity funds are named for the size of the companies they invest in: small-, mid-, or large-cap. Others are named by their investment approach: aggressive growth, income-oriented, value, and others. Equity funds are also categorized by whether they invest in domestic (U.S.) stocks or foreign equities. To understand the universe of equity funds is to use a style box, an example of which is below.</li>
@@ -26,6 +114,8 @@
     <li>International/Global Funds: An international fund, or foreign fund, invests only in assets located outside an investor's home country. Global funds, however, can invest anywhere around the world. Their volatility often depends on the unique country's economy and political risks. However, these funds can be part of a well-balanced portfolio by increasing diversification, since the returns in foreign countries may be uncorrelated with returns at home.</li>
     <li>Specialty Funds: Sector funds are targeted strategy funds aimed at specific sectors of the economy, such as financial, technology, or healthcare. Sector funds can be extremely volatile since the stocks in a given sector tend to be highly correlated with each other. Regional funds make it easier to focus on a specific geographic area of the world. This can mean focusing on a broader region or an individual country. Socially responsible funds, or ethical funds, invest only in companies that meet the criteria of certain guidelines or beliefs. For example, some socially responsible funds do not invest in "sin" industries such as tobacco, alcoholic beverages, weapons, or nuclear power. Other funds invest primarily in green technology, such as solar and wind power or recycling.</li>
 </ul>
+</div>
+<div class="container">
 <h5>Why we need mutual funds:</h5>
 <ul>
     <li>Professional Management — Investors may not have the time or the required knowledge and resources to conduct their research and purchase individual stocks or bonds. A mutual fund is managed by full-time, professional money managers who have the expertise, experience and resources to actively buy, sell, and monitor investments. A fund manager continuously monitors investments and rebalances the portfolio accordingly to meet the scheme’s objectives. Portfolio management by professional fund managers is one of the most important advantages of a mutual fund.</li>
@@ -36,10 +126,13 @@
     <li>Well-Regulated — Mutual Funds are regulated by the capital markets regulator, Securities and Exchange Board of India (SEBI) under SEBI (Mutual Funds) Regulations, 1996. SEBI has laid down stringent rules and regulations keeping investor protection, transparency with appropriate risk mitigation framework and fair valuation principles.</li>
     <li>Tax Benefits — Investment in ELSS upto ₹1,50,000 qualifies for tax benefit under section 80C of the Income Tax Act, 1961. Mutual Fund investments when held for a longer term are tax efficient</li>
 </ul>
+</div>
+<div class="container">
 <h5>What is a Mutual Fund Portfolio?</h5>
 <p>Each one of us works hard to earn money and provide for our families. We also cut corners and try to save some funds for the proverbial rainy days. However, with inflation eating away at our savings, investments are the only way to ensure that our savings don't devalue with time. Choosing an investment option in one of the most important financial decisions that we make in our lives. Real estate, stocks, gold, mutual funds, fixed deposit; the options are virtually endless and the result - confusion. Even if an investor decides to invest in Mutual Funds, there is a plethora of funds to choose from which doesn't make it any easier. A Mutual fund portfolio helps make some sense out of this cacophony.</p>
 <p>Mutual Fund Portfolio is the collection of investments made in different MF schemes. All these investments are in sync with your investment goals and objectives. offers a comprehensive view of your investments in Mutual funds and allows you to monitor them or analyze and manage them better.</p>
-
+</div>
+<div class="container">
 <h5>Based on Asset Class</h5>
 <ul>
     <li><strong>Equity Funds:</strong> Equity funds primarily invest in stocks, and hence go by the name of stock funds as well. They invest the money pooled in from various investors from diverse backgrounds into shares/stocks of different companies. The gains and losses associated with these funds depend solely on how the invested shares perform (price-hikes or price-drops) in the stock market. Also, equity funds have the potential to generate significant returns over a period. Hence, the risk associated with these funds also tends to be comparatively higher.</li>
@@ -47,8 +140,9 @@
     <li><strong>Money Market Funds:</strong> Investors trade stocks in the stock market. In the same way, investors also invest in the money market, also known as capital market or cash market. The government runs it in association with banks, financial institutions and other corporations by issuing money market securities like bonds, T-bills, dated securities and certificates of deposits, among others. The fund manager invests your money and disburses regular dividends in return. Opting for a short-term plan (not more than 13 months) can lower the risk of investment considerably on such funds.</li>
     <li><strong>Hybrid Funds:</strong> As the name suggests, hybrid funds (Balanced Funds) is an optimum mix of bonds and stocks, thereby bridging the gap between equity funds and debt funds. The ratio can either be variable or fixed. In short, it takes the best of two mutual funds by distributing, say, 60% of assets in stocks and the rest in bonds or vice versa. Hybrid funds are suitable for investors looking to take more risks for ‘debt plus returns’ benefit rather than sticking to lower but steady income schemes.</li>
 </ul>
-
-<h5>Based on Investment Goals</h5>
+</div>
+<div class="container">
+    <h5>Based on Investment Goals</h5>
 <ul>
     <li><strong>Growth Funds:</strong> Growth funds usually allocate a considerable portion in shares and growth sectors, suitable for investors (mostly Millennials) who have a surplus of idle money to be distributed in riskier plans (albeit with possibly high returns) or are positive about the scheme.</li>
     <li><strong>Income Funds:</strong> Income funds belong to the family of debt mutual funds that distribute their money in a mix of bonds, certificate of deposits and securities among others. Helmed by skilled fund managers who keep the portfolio in tandem with the rate fluctuations without compromising on the portfolio’s creditworthiness, income funds have historically earned investors better returns than deposits. They are best suited for risk-averse investors with a 2-3 years perspective.</li>
@@ -59,13 +153,16 @@
     <li><strong>Fixed Maturity Funds:</strong> Many investors choose to invest towards the of the FY ends to take advantage of triple indexation, thereby bringing down tax burden. If uncomfortable with the debt market trends and related risks, Fixed Maturity Plans (FMP) – which invest in bonds, securities, money market etc. – present a great opportunity. As a close-ended plan, FMP functions on a fixed maturity period, which could range from one month to five years (like FDs). The fund manager ensures that the money is allocated to an investment with the same tenure, to reap accrual interest at the time of FMP maturity.</li>
     <li><strong>Pension Funds:</strong> Putting away a portion of your income in a chosen pension fund to accrue over a long period to secure you and your family’s financial future after retiring from regular employment can take care of most contingencies (like a medical emergency or children’s wedding). Relying solely on savings to get through your golden years is not recommended as savings (no matter how big) get used up. EPF is an example, but there are many lucrative schemes offered by banks, insurance firms etc.</li>
 </ul>
-
+</div>
+<div class="container">
 <h5>Based on Structure</h5>
 <ul>
     <li><strong>Open-Ended Funds:</strong> Open-ended funds do not have any particular constraint such as a specific period or the number of units which can be traded. These funds allow investors to trade funds at their convenience and exit when required at the prevailing NAV (Net Asset Value). This is the sole reason why the unit capital continually changes with new entries and exits. An open-ended fund can also decide to stop taking in new investors if they do not want to (or cannot manage significant funds).</li>
     <li><strong>Closed-Ended Funds:</strong> In closed-ended funds, the unit capital to invest is pre-defined. Meaning the fund company cannot sell more than the pre-agreed number of units. Some funds also come with a New Fund Offer (NFO) period; wherein there is a deadline to buy units. NFOs comes with a pre-defined maturity tenure with fund managers open to any fund size. Hence, SEBI has mandated that investors be given the option to either repurchase option or list the funds on stock exchanges to exit the schemes.</li>
     <li><strong>Interval Funds:</strong> Interval funds have traits of both open-ended and closed-ended funds. These funds are open for purchase or redemption only during specific intervals (decided by the fund house) and closed the rest of the time. Also, no transactions will be permitted for at least two years. These funds are suitable for investors looking to save a lump sum amount for a short-term financial goal, say, in 3-12 months.</li>
 </ul>
+</div>
+<div class="container">
 <h5>Based on Risk</h5>
 <p>The mutual fund types based on risk are:</p>
 <ul>
@@ -74,7 +171,8 @@
     <li><strong>Medium-risk Funds:</strong> Here, the risk factor is of medium level as the fund manager invests a portion in debt and the rest in equity funds. The NAV is not that volatile, and the average returns could be 9-12%.</li>
     <li><strong>High-Risk Funds:</strong> Suitable for investors with no risk aversion and aiming for huge returns in the form of interest and dividends, high-risk mutual funds need active fund management. Regular performance reviews are mandatory as they are susceptible to market volatility. You can expect 15% returns, though most high-risk funds generally provide up to 20% returns.</li>
 </ul>
-
+</div>
+<div class="container">
 <h5>Specialized Mutual Funds</h5>
 <ul>
     <li><strong>Sector Funds:</strong> Sector funds invest solely in one specific sector, theme-based mutual funds. As these funds invest only in specific sectors with only a few stocks, the risk factor is on the higher side. Investors are advised to keep track of the various sector-related trends. Sector funds also deliver great returns. Some areas of banking, IT and pharma have witnessed huge and consistent growth in the recent past and are predicted to be promising in future as well.</li>
@@ -93,7 +191,7 @@
 </ul>
 
 <p>As a tax-paying citizen, Section-80C of the Indian Tax Act allows you some breather – a deduction of up to 150,000 from your total annual income.</p>
-
+</div>
        
         </div>
     </body>
