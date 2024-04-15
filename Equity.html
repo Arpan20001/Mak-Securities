@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Nav Bar</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Style the container */
+.container {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+/* Grid items */
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.grid-contain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Container for Content -->
+    <div class="container">
+        <center>
+        <h1>Theme Based Baskets</h1>
+        </center>
+        <p></p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" style="font-size: 30px;"><b>About</b></div>
+        <div class="grid-item"style="font-size: 30px;"><b>Queries</b></div>
+        <div class="grid-item"style="font-size: 30px;">   </div>
+    </div>
+
+    <div class="container">
+        <h2 style="font-size: 35px;">What Is a Basket?</h2>
+      <p style="font-size: 25px;">  A basket refers to a grouping of various securities, such as stocks or currencies, that are selected 
+based on a common theme or specific criteria. An example would be a sector exchange-traded fund 
+(ETF), which typically comprises a collection of stocks all belonging to the same industry.<br>
+Basket orders involve executing multiple trades in various securities simultaneously, often utilizing a 
+program that executes all the trades at once. Due to this programmatic aspect, baskets are 
+commonly integrated into program trading strategies.<br>
+Institutional traders, hedge funds, mutual funds, and exchange-traded funds (ETFs) utilize baskets to 
+efficiently adjust their portfolio allocations quickly. Many retail brokers also offer individuals the 
+capability to create and execute basket orders.<br>
+In economics, a basket of goods denotes a predetermined selection of consumer products and 
+services whose prices are regularly assessed, typically on a monthly or annual basis, to monitor 
+inflation trends.</p><br>
+</div>
+<div class="container">
+   <h1 style="font-size: 35px;">Key Takeaways</h1>
+        <ul>
+            <li style="font-size: 25px;">A basket of securities is multiple positions related to a central theme, such as meeting 
+                certain criteria, adhering to a certain strategy, or being part of a sector or industry group.</li>
+            <li style="font-size: 25px;">A basket order simultaneously buys or sells multiple securities in such a basket.</li>
+            <li style="font-size: 25px;">Most brokers provide basket orders to retail traders, and anyone can hold a basket of 
+                securities.</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
