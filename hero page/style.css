@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.icon img{
+    height: 60px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.icon2 img{
+    height: 40px;
+    width: auto;
+    margin-right: 900px;
+    margin-top: 23px;
+}
+
+.btn1 {
+    margin-right: 50px;
+    background-color: #e9ecef;
+    width: 90px;
+    height: 28px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn1 p{
+    font-size: 0.8rem;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.p2 {
+    margin-top: 40px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+  
+  }
+  
+  .item{
+    display: flex;
+    background-color: #edf2f4;
+    margin-left: 120px;
+    margin-top: 150px;
+    margin-right: 120px;
+  }
+  
+  .item1{
+    background-image: url(item1.jpg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .d{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .d ul a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+  
+  }
+  
+  .d ul p{
+    margin-top: 5px;
+  }
+  
+  .pp{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .item99 {
+    display: flex;
+    background-color: #edf2f4;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-right: 120px;
+  }
+  
+  .item2{
+    background-image: url(item2.avif);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .item3{
+    background-image: url(item3.jpg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .item4{
+    background-image: url(item4.jpg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .item5{
+    background-image: url(item5.png);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .item6{
+    background-image: url(item6.jpg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .item7{
+    background-image: url(item7.jpg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .item8{
+    background-image: url(item8.jpg);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
+  .item9{
+    background-image: url(item9.png);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+  
+  }
+  
