@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Nav Bar</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Style the container */
+.container {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+/* Grid items */
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.grid-contain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Container for Content -->
+    <div class="container">
+        <center>
+        <h1>Alternate Investment Fund</h1>
+        </center>
+        <p></p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" style="font-size: 30px;"><b>About</b></div>
+        <div class="grid-item"style="font-size: 30px;"><b>Querie</b></div>
+        <div class="grid-item"style="font-size: 30px;">Item 3</div>
+    </div>
+    <div class="container" >
+       
+        <p>Alternative Investment Funds (AIFs) are a distinct category of investment vehicles, that differ from 
+            traditional instruments. They are privately pooled funds, commonly invested in by institutions and 
+            High Net Worth Individuals (HNIs) due to substantial investment requirements.</p>
+        <p>AIFs are governed by the SEBI (Alternative Investment Funds) Regulations, 2012, and can take 
+            various legal forms such as companies, Limited Liability Partnerships (LLPs), trusts, etc.</p>
+            <br><br>
+       <center><h1>Types of AIFs in India</h1><hr></center>
+        <br><h2>Category 1:</h2>
+        <ul>
+            <li><b><p>Venture Capital Funds:</b> Invest in SMEs, start-ups, and economically viable businesses with high 
+                growth potential</p></li>
+            <li><b><p>Angel Funds:</b> Invest in early-stage start-ups, typically not funded by Venture Capital Funds.</p></li>
+            <li><b><p>Infrastructure Funds:</b>Invest in infrastructure projects like railway and port construction</p></li>
+            <li> <b><p>Social Venture Funds:</b> Invest in socially responsible businesses.</p></li>
+        </ul>
+        <br><h2>Category 2:</h2>
+
+        <ul>
+            <li><b><p>Private Equity Funds:</b> Invest in unlisted private companies</p></li>
+            <li><b><p>Debt Funds: </b>Invest in debt securities of unlisted companies with high growth potential.</p></li>
+            <li><b><p>Fund of Funds:</b> Invest in other Alternative Investment Funds.</p></li>
+        </ul>
+
+        <br><h2>Category 3:</h2>
+
+        <ul>
+            <li><b><p>Private Investment in Public Equity Fund (PIPE):</b> Invest in shares of publicly traded companies.</p></li>
+            <li><b><p>Hedge Funds:</b> Pool money from accredited investors to invest in domestic and international markets 
+                aggressively.</p></li>
+            <li><b><p>Eligibility Criteria for Investors:</b></p></li>
+                <ol>
+                    <li>Resident Indians, NRIs, and foreign nationals can invest.</li>
+                    <li> The minimum investment limit for investors is Rs. 1 crore, and for directors, employees, and fund 
+                    managers, it's Rs. 25 lakh.</li>
+                    <li>A minimum lock-in period of three years is applicable.</li>
+                    <li>The number of investors is restricted to 1000, except for angel funds, where it's up to 49.</li></ul>
+                </ol>
+        
+                <ul>
+                    <li><b><p>Benefits of Investing in AIFs:</b>Resident Indians, NRIs, and foreign nationals can invest.</p></li>
+                    <li><b><p>Low Volatility:</b> They exhibit lower volatility compared to traditional equity investments, making them suitable for risk-averse investors.</p></li>
+                    <li><b><p>Diversification:</b> AIFs allow diversification in investment portfolios, acting as a cushion during financial crises or market volatility.</p></li>
+                    <li><b><p>Benefits of Investing in AIFs:</b>Resident Indians, NRIs, and foreign nationals can invest.</p></li>
+                    <li><b><p>Key Takeaway:</b>
+                        AIFs present an attractive investment opportunity, particularly for HNIs seeking high returns with 
+                        lower associated risks. Investors can choose a category of AIF based on their financial goals and risk 
+                        appetite after thorough market research.</p></li>
+
+                </ul>
+        </ul>
+                
+        
+        
+       
+    </div>
+
+</body>
+</html>
